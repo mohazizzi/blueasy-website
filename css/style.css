@@ -1,0 +1,61 @@
+@font-face{
+    font-family: IranSans;
+    src:url(../fonts/IRANSansWeb.woff2) format("woff2");
+}
+body{
+    font-family: IranSans;
+}
+html {
+    scroll-behavior: smooth;
+}
+.showcase{
+    position:relative;
+    min-height: 780px;
+    background:url(../img/hero-sec.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.showcase-min{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#services i{
+    font-size:2.5rem;
+}
+#possibilities {
+    direction:rtl;
+}
+#possibilities i{
+    font-size:2.5rem;
+}
+.bg_image{
+    background:url(../img/man-with-camera.jpg);
+    background-position: center;
+    min-height:fit-content;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:#17a2b8;
+}
+#contact-us{
+    background:url(../img/coffie.jpg);
+    background-position: center;
+    min-height:fit-content;
+    direction:rtl;
+}
+@media only screen and (max-width: 768px){
+    .social_media_group{
+        text-align:center !important;
+    }
+}
+@media only screen and (min-width: 768px){
+    .showcase-min h5{
+        font-size: 2rem;
+    }
+}
